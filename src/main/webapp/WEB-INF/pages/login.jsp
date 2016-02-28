@@ -7,10 +7,10 @@
 </head>
 <body>
    <h2>Login with Open Id </h2>
-
+<br/><br/>
   <form action="../j_spring_openid_security_check" method="post">
    <input name="openid_identifier"
-    value="https://openid.stackexchange.com"/>
+    value="https://me.yahoo.com/psunilkumar1278"/>
     <input type="submit" value="Sign in with open id"/>
   </form>
   </body>

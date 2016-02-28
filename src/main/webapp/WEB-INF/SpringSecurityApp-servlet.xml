@@ -53,7 +53,7 @@
                 default-target-url="/"
                 authentication-success-handler-ref="successHandler"
                 user-service-ref="loginService">
-            <security:attribute-exchange identifier-match="https://openid.stackexchange.com/.*">
+            <security:attribute-exchange>
                 <security:openid-attribute name="axContactEmail" type="http://axschema.org/contact/email"
                                            required="true"/>
                 <security:openid-attribute name="oiContactEmail" type="http://schema.openid.net/contact/email"
